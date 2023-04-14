@@ -79,7 +79,7 @@ if(isset($_POST['action']) && $_POST['action'] == "update"){
 
 
 }
-
+// for delete option
 if(isset($_POST['del_id'])){
     $id = $_POST['del_id'];
     $del_row = $db->delete($id);
