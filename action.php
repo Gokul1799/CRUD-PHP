@@ -67,7 +67,7 @@ if(isset($_POST['edit_id'])){
     // $obj->success=$row;
     echo json_encode($row);
 }
-
+// update option
 if(isset($_POST['action']) && $_POST['action'] == "update"){
     print_r("working");
     $id = $_POST['id'];
